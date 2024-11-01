@@ -9,9 +9,9 @@ A simple ASP.NET Core Kestrel server app that can host Blazor WASM standalone ap
 - Clone this repo.
 - Publish this Minimal API project.
 - Publish your Blazor WASM project, then:
-  - Put the content of published "wwwroot" (in Blazor WASM) folder to the project "wwwroot" (in Minimal API) folder.
+  - Put the content of published "wwwroot" (in Blazor WASM) folder to the Minimal API's "wwwroot".
   - The `web.config` file can be ignored.
-- Set the desired port to for the Blazor WebAssembly standalone app to run.
+- Set the desired port to for the Blazor WASM standalone app to run.
 - Execute the .exe file, or run `dotnet BlazorWasmHoster`.
 
 ## Why?
