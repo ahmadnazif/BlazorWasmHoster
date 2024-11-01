@@ -12,7 +12,7 @@ A simple ASP.NET Core Kestrel server app that can host Blazor WASM standalone ap
   - Put the content of published "wwwroot" (in Blazor WASM) folder to the Minimal API's "wwwroot".
   - The `web.config` file can be ignored.
 - Set the desired port to for the Blazor WASM standalone app to run.
-- Execute the .exe file, or run `dotnet BlazorWasmHoster`.
+- Execute the .exe file, or run `dotnet BlazorWasmHoster.dll`.
 
 ## Why?
 Blazor WASM standalone app can be hosted as static page using NGINX, or can also hosted using ASP.NET Core. Choosing ASP.NET Core hosted will create separate Server & Client projects inside the same solution. It is ok if you want to use the <b>Server</b> project to do the backend things directly (like query the database etc). Blazor WASM standalone is using `HttpClient` to communicate to the backend.
