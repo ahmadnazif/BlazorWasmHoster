@@ -4,7 +4,7 @@ var config = builder.Configuration;
 builder.WebHost.ConfigureKestrel(x =>
 {
     var port = int.Parse(config["Port"]);
-    x.ListenAnyIP(int.Parse(config["Port"]));
+    x.ListenAnyIP(port);
 });
 
 builder.Services.AddCors(x => x.AddDefaultPolicy(y => y.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
