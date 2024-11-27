@@ -1,5 +1,5 @@
-# BlazorWasmHoster
-A simple ASP.NET Core Kestrel server app that can host Blazor WASM standalone app! 
+# SpaHoster
+A simple ASP.NET Core Kestrel server app that can host Blazor WASM standalone app, or some SPA like React! 
 
 ## Tech
 - .NET 8 LTS
