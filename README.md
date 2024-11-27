@@ -1,4 +1,4 @@
-# SpaHoster
+# SPA Hoster
 A simple ASP.NET Core Kestrel server app that can host Blazor WASM standalone app, or some SPA like React! 
 
 ## Tech
